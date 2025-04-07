@@ -1,17 +1,19 @@
-// math.js
-function add(a,b){
-    return a+b;
-}
-function subtract(a,b){
-    return a-b
+const {add, subtract, multiply, divide } = require("./math");
 
-}
-function multiply(a,b){
-    return a*b
+test('adds 2 + 3 to equal 5', () => { //description; what we are testing
+    expect(add(2, 3)).toBe(5); //call back; contains actual logic
+});
 
-}
-function divide(a,b){
-    if(b===0) throw new Error
-    return a/b
+test('subtracts 8 - 3 to equal 5', () => { 
+    expect(subtract(8, 3)).toBe(5); 
+});
 
-}
+test('mutiplies 2 * 3 to equal 6', () => { 
+    expect(multiply(2, 3)).toBe(6); 
+});
+
+test('divides 6 / 3 to equal 2', () => { 
+    expect(divide(6, 3)).toBe(2); 
+});
+
+
