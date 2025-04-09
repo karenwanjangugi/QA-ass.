@@ -1,4 +1,5 @@
-//emailValidator.js
-function isValidEmail(){
-    return
-}
+const isValidEmail = require("./emailValidator")
+
+test("",()=>{
+    expect(isValidEmail()).toBe(false)
+})

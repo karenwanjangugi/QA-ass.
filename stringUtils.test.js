@@ -1,4 +1,5 @@
-//stringUtils.js
-function reverseString(str){
-    return str.split(*).reverse().join('')
-}
+const reverseString = require("./stringUtils")
+
+test("",()=>{
+    expect(reverseString("enter")).toBe("retne");
+});

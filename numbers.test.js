@@ -1,5 +1,5 @@
-//number.test.js
-function isEven(num){
-    return num%2===0
-}
+const isEven = require("./numbers")
 
+test("even",()=>{
+    expect(isEven(3)).toBe(false);
+});

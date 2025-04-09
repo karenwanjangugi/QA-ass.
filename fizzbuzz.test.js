@@ -1,11 +1,13 @@
-//fizzbuzz.js
-function fizzBuzz(num){
-    if(num%3===0&&num%5===0)
-        return 'FizzBuzz'
-    if(num%3===0)
-        return 'Fizz'
-    if(num%5===0)
-        return 'Buzz'
-    return num.toString();
+const fizzBuzz = require("./fizzbuzz");
 
-}
+test("",()=>{
+    expect(fizzBuzz(45)).toBe('FizzBuzz');
+});
+test("",()=>{
+    expect(fizzBuzz(3)).toBe('Fizz');
+});
+test("",()=>{
+    expect(fizzBuzz(5)).toBe('Buzz');
+});
+
+

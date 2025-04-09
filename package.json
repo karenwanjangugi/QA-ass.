@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "qa-ass.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emailValidator.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenwanjangugi/QA-ass..git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karenwanjangugi/QA-ass./issues"
+  },
+  "homepage": "https://github.com/karenwanjangugi/QA-ass.#readme",
+  "devdependecies": {
+    "jest":"^29.7.0"
+  }
+}
